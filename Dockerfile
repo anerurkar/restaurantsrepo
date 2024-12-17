@@ -1,4 +1,4 @@
 FROM openjdk:17
-ADD target/restaurant-service.jar restaurant-service.jar
+ADD target/foodapp-restaurant-service.jar foodapp-restaurant-service.jar
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar","restaurant-service.jar"]
+ENTRYPOINT ["java", "-jar","foodapp-restaurant-service.jar"]
