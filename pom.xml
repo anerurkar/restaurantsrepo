@@ -112,6 +112,6 @@
 				</executions>
 			</plugin> -->
 		</plugins>
-		<finalName>restaurant-service</finalName>
+		<finalName>restaurant-service-dockderhub</finalName>
 	</build>
 </project>
